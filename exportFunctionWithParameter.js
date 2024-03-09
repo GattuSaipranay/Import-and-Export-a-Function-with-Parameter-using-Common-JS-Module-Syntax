@@ -1,6 +1,5 @@
 // exportFunctionWithParameter.js
-function square(number) {
-  return number * number;
-}
-
+const square = (num) => {
+  return num * num;
+};
 module.exports = square;
